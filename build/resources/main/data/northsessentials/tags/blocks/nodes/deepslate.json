@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "northsessentials:iron_deepslate_node",
+    "northsessentials:quartz_deepslate_node",
+    "northsessentials:emerald_deepslate_node",
+    "northsessentials:lapis_deepslate_node",
+    "northsessentials:diamond_deepslate_node",
+    "northsessentials:ancient_debris_deepslate_node",
+    "northsessentials:coal_deepslate_node",
+    "northsessentials:redstone_deepslate_node",
+    "northsessentials:copper_deepslate_node",
+    "northsessentials:amethyst_deepslate_node",
+    "northsessentials:gold_deepslate_node"
+  ]
+}

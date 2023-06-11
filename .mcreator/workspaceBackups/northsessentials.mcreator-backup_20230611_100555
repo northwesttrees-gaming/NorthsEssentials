@@ -1,0 +1,1732 @@
+{
+  "mod_elements": [
+    {
+      "name": "GoldNode",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/block/gold_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/GoldNodeBlock.java",
+          "src/main/resources/assets/northsessentials/blockstates/gold_node.json",
+          "src/main/resources/assets/northsessentials/models/item/gold_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/GoldNodeBlockEntity.java"
+        ]
+      },
+      "path": "~/Nodes/Stone/Gold"
+    },
+    {
+      "name": "NodeBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "node_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/procedures/NodeBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nodes/All"
+    },
+    {
+      "name": "CopperNode",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/blockstates/copper_node.json",
+          "src/main/resources/assets/northsessentials/models/item/copper_node.json",
+          "src/main/resources/assets/northsessentials/models/block/copper_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/CopperNodeBlock.java",
+          "src/main/java/net/nwtg/northsessentials/block/entity/CopperNodeBlockEntity.java"
+        ]
+      },
+      "path": "~/Nodes/Stone/Copper"
+    },
+    {
+      "name": "CoalNode",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_node",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/CoalNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/item/coal_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/CoalNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/block/coal_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/coal_node.json"
+        ]
+      },
+      "path": "~/Nodes/Stone/Coal"
+    },
+    {
+      "name": "IronNode",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/block/iron_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/IronNodeBlock.java",
+          "src/main/java/net/nwtg/northsessentials/block/entity/IronNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/blockstates/iron_node.json",
+          "src/main/resources/assets/northsessentials/models/item/iron_node.json"
+        ]
+      },
+      "path": "~/Nodes/Stone/Iron"
+    },
+    {
+      "name": "EmeraldNode",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_node",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/EmeraldNodeBlock.java",
+          "src/main/java/net/nwtg/northsessentials/block/entity/EmeraldNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/item/emerald_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/emerald_node.json",
+          "src/main/resources/assets/northsessentials/models/block/emerald_node.json"
+        ]
+      },
+      "path": "~/Nodes/Stone/Emerald"
+    },
+    {
+      "name": "LapisNode",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_node",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/entity/LapisNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/item/lapis_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/lapis_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/LapisNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/block/lapis_node.json"
+        ]
+      },
+      "path": "~/Nodes/Stone/Lapis"
+    },
+    {
+      "name": "RedstoneNode",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/block/redstone_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/RedstoneNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/blockstates/redstone_node.json",
+          "src/main/resources/assets/northsessentials/models/item/redstone_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/RedstoneNodeBlock.java"
+        ]
+      },
+      "path": "~/Nodes/Stone/Redstone"
+    },
+    {
+      "name": "DiamondNode",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/block/diamond_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/diamond_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/DiamondNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/item/diamond_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/DiamondNodeBlock.java"
+        ]
+      },
+      "path": "~/Nodes/Stone/Diamond"
+    },
+    {
+      "name": "QuartzNode",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/item/quartz_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/quartz_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/QuartzNodeBlock.java",
+          "src/main/java/net/nwtg/northsessentials/block/entity/QuartzNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/block/quartz_node.json"
+        ]
+      },
+      "path": "~/Nodes/Stone/Quartz"
+    },
+    {
+      "name": "CancelBlockPlacedWhenEditingNodes",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cancel_block_placed_when_editing_nodes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/procedures/CancelBlockPlacedWhenEditingNodesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "placedagainst",
+            "type": "blockstate"
+          }
+        ]
+      },
+      "path": "~/Nodes/All"
+    },
+    {
+      "name": "NodesBlockTag",
+      "type": "tag",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nodes_block_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northessentials/tags/blocks/nodes.json"
+        ]
+      },
+      "path": "~/Nodes/All"
+    },
+    {
+      "name": "AllowedRightClickBlocksBlockTag",
+      "type": "tag",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allowed_right_click_blocks_block_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northguard/tags/blocks/allowed/right_click/blocks.json"
+        ]
+      },
+      "path": "~/NorthGuard"
+    },
+    {
+      "name": "CoalDeepslateNode",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_deepslate_node",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/entity/CoalDeepslateNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/block/coal_deepslate_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/CoalDeepslateNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/item/coal_deepslate_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/coal_deepslate_node.json"
+        ]
+      },
+      "path": "~/Nodes/Deepslate/Coal"
+    },
+    {
+      "name": "CopperDeepslateNode",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_deepslate_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/item/copper_deepslate_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/copper_deepslate_node.json",
+          "src/main/resources/assets/northsessentials/models/block/copper_deepslate_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/CopperDeepslateNodeBlockEntity.java",
+          "src/main/java/net/nwtg/northsessentials/block/CopperDeepslateNodeBlock.java"
+        ]
+      },
+      "path": "~/Nodes/Deepslate/Copper"
+    },
+    {
+      "name": "IronDeepslateNode",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_deepslate_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/block/iron_deepslate_node.json",
+          "src/main/resources/assets/northsessentials/models/item/iron_deepslate_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/IronDeepslateNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/blockstates/iron_deepslate_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/IronDeepslateNodeBlock.java"
+        ]
+      },
+      "path": "~/Nodes/Deepslate/Iron"
+    },
+    {
+      "name": "EmeraldDeepslateNode",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_deepslate_node",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/EmeraldDeepslateNodeBlock.java",
+          "src/main/java/net/nwtg/northsessentials/block/entity/EmeraldDeepslateNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/blockstates/emerald_deepslate_node.json",
+          "src/main/resources/assets/northsessentials/models/item/emerald_deepslate_node.json",
+          "src/main/resources/assets/northsessentials/models/block/emerald_deepslate_node.json"
+        ]
+      },
+      "path": "~/Nodes/Deepslate/Emerald"
+    },
+    {
+      "name": "GoldDeepslateNode",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_deepslate_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/blockstates/gold_deepslate_node.json",
+          "src/main/resources/assets/northsessentials/models/item/gold_deepslate_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/GoldDeepslateNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/block/gold_deepslate_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/GoldDeepslateNodeBlockEntity.java"
+        ]
+      },
+      "path": "~/Nodes/Deepslate/Gold"
+    },
+    {
+      "name": "LapisDeepslateNode",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_deepslate_node",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/LapisDeepslateNodeBlock.java",
+          "src/main/java/net/nwtg/northsessentials/block/entity/LapisDeepslateNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/item/lapis_deepslate_node.json",
+          "src/main/resources/assets/northsessentials/models/block/lapis_deepslate_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/lapis_deepslate_node.json"
+        ]
+      },
+      "path": "~/Nodes/Deepslate/Lapis"
+    },
+    {
+      "name": "RedstoneDeepslateNode",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_deepslate_node",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/RedstoneDeepslateNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/block/redstone_deepslate_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/redstone_deepslate_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/RedstoneDeepslateNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/item/redstone_deepslate_node.json"
+        ]
+      },
+      "path": "~/Nodes/Deepslate/Redstone"
+    },
+    {
+      "name": "DiamondDeepslateNode",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_deepslate_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/item/diamond_deepslate_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/DiamondDeepslateNodeBlockEntity.java",
+          "src/main/java/net/nwtg/northsessentials/block/DiamondDeepslateNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/block/diamond_deepslate_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/diamond_deepslate_node.json"
+        ]
+      },
+      "path": "~/Nodes/Deepslate/Diamond"
+    },
+    {
+      "name": "NetherGoldNode",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_gold_node",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/entity/NetherGoldNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/item/nether_gold_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/NetherGoldNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/block/nether_gold_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/nether_gold_node.json"
+        ]
+      },
+      "path": "~/Nodes/Nether/Gold"
+    },
+    {
+      "name": "AmethystNode",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/item/amethyst_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/AmethystNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/block/amethyst_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/AmethystNodeBlock.java",
+          "src/main/resources/assets/northsessentials/blockstates/amethyst_node.json"
+        ]
+      },
+      "path": "~/Nodes/Stone/Amethyst"
+    },
+    {
+      "name": "AncientDebrisNode",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_debris_node",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/entity/AncientDebrisNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/blockstates/ancient_debris_node.json",
+          "src/main/resources/assets/northsessentials/models/item/ancient_debris_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/AncientDebrisNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/block/ancient_debris_node.json"
+        ]
+      },
+      "path": "~/Nodes/Stone/Ancient Debris"
+    },
+    {
+      "name": "QuartzDeepslateNode",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_deepslate_node",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/entity/QuartzDeepslateNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/item/quartz_deepslate_node.json",
+          "src/main/resources/assets/northsessentials/models/block/quartz_deepslate_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/QuartzDeepslateNodeBlock.java",
+          "src/main/resources/assets/northsessentials/blockstates/quartz_deepslate_node.json"
+        ]
+      },
+      "path": "~/Nodes/Deepslate/Quartz"
+    },
+    {
+      "name": "AmethystDeepslateNode",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_deepslate_node",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/entity/AmethystDeepslateNodeBlockEntity.java",
+          "src/main/java/net/nwtg/northsessentials/block/AmethystDeepslateNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/item/amethyst_deepslate_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/amethyst_deepslate_node.json",
+          "src/main/resources/assets/northsessentials/models/block/amethyst_deepslate_node.json"
+        ]
+      },
+      "path": "~/Nodes/Deepslate/Amethyst"
+    },
+    {
+      "name": "AncientDebrisDeepslateNode",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_debris_deepslate_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/blockstates/ancient_debris_deepslate_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/AncientDebrisDeepslateNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/item/ancient_debris_deepslate_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/AncientDebrisDeepslateNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/block/ancient_debris_deepslate_node.json"
+        ]
+      },
+      "path": "~/Nodes/Deepslate/Ancient Debris"
+    },
+    {
+      "name": "NetherCoalNode",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_coal_node",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/entity/NetherCoalNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/block/nether_coal_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/NetherCoalNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/item/nether_coal_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/nether_coal_node.json"
+        ]
+      },
+      "path": "~/Nodes/Nether/Coal"
+    },
+    {
+      "name": "NetherCopperNode",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_copper_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/block/nether_copper_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/NetherCopperNodeBlock.java",
+          "src/main/java/net/nwtg/northsessentials/block/entity/NetherCopperNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/blockstates/nether_copper_node.json",
+          "src/main/resources/assets/northsessentials/models/item/nether_copper_node.json"
+        ]
+      },
+      "path": "~/Nodes/Nether/Copper"
+    },
+    {
+      "name": "NetherIronNode",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_iron_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/item/nether_iron_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/NetherIronNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/block/nether_iron_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/NetherIronNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/blockstates/nether_iron_node.json"
+        ]
+      },
+      "path": "~/Nodes/Nether/Iron"
+    },
+    {
+      "name": "NetherEmeraldNode",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_emerald_node",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/NetherEmeraldNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/block/nether_emerald_node.json",
+          "src/main/resources/assets/northsessentials/models/item/nether_emerald_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/nether_emerald_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/NetherEmeraldNodeBlockEntity.java"
+        ]
+      },
+      "path": "~/Nodes/Nether/Emerald"
+    },
+    {
+      "name": "NetherLapisNode",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_lapis_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/item/nether_lapis_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/NetherLapisNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/block/nether_lapis_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/NetherLapisNodeBlock.java",
+          "src/main/resources/assets/northsessentials/blockstates/nether_lapis_node.json"
+        ]
+      },
+      "path": "~/Nodes/Nether/Lapis"
+    },
+    {
+      "name": "NetherRedstoneNode",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_redstone_node",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/entity/NetherRedstoneNodeBlockEntity.java",
+          "src/main/java/net/nwtg/northsessentials/block/NetherRedstoneNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/item/nether_redstone_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/nether_redstone_node.json",
+          "src/main/resources/assets/northsessentials/models/block/nether_redstone_node.json"
+        ]
+      },
+      "path": "~/Nodes/Nether/Redstone"
+    },
+    {
+      "name": "NetherDiamondNode",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_diamond_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/item/nether_diamond_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/nether_diamond_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/NetherDiamondNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/block/nether_diamond_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/NetherDiamondNodeBlockEntity.java"
+        ]
+      },
+      "path": "~/Nodes/Nether/Diamond"
+    },
+    {
+      "name": "NetherQuartzNode",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_quartz_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/block/nether_quartz_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/NetherQuartzNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/blockstates/nether_quartz_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/NetherQuartzNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/item/nether_quartz_node.json"
+        ]
+      },
+      "path": "~/Nodes/Nether/Quartz"
+    },
+    {
+      "name": "NetherAmethystNode",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_amethyst_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/block/nether_amethyst_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/NetherAmethystNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/item/nether_amethyst_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/NetherAmethystNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/blockstates/nether_amethyst_node.json"
+        ]
+      },
+      "path": "~/Nodes/Nether/Amethyst"
+    },
+    {
+      "name": "NetherAncientDebrisNode",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_ancient_debris_node",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/NetherAncientDebrisNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/item/nether_ancient_debris_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/NetherAncientDebrisNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/block/nether_ancient_debris_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/nether_ancient_debris_node.json"
+        ]
+      },
+      "path": "~/Nodes/Nether/Ancient Debris"
+    },
+    {
+      "name": "EmptyNodeUpdateTick",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_node_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/procedures/EmptyNodeUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nodes/Empty"
+    },
+    {
+      "name": "EmptyNode",
+      "type": "block",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_node",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/entity/EmptyNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/block/empty_node.json",
+          "src/main/resources/assets/northsessentials/models/item/empty_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/empty_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/EmptyNodeBlock.java"
+        ]
+      },
+      "path": "~/Nodes/Empty"
+    },
+    {
+      "name": "EmptyDeepslateNode",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_deepslate_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/block/empty_deepslate_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/EmptyDeepslateNodeBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/item/empty_deepslate_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/EmptyDeepslateNodeBlock.java",
+          "src/main/resources/assets/northsessentials/blockstates/empty_deepslate_node.json"
+        ]
+      },
+      "path": "~/Nodes/Empty"
+    },
+    {
+      "name": "EmptyNetherNode",
+      "type": "block",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_nether_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/block/empty_nether_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/EmptyNetherNodeBlock.java",
+          "src/main/resources/assets/northsessentials/models/item/empty_nether_node.json",
+          "src/main/resources/assets/northsessentials/blockstates/empty_nether_node.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/EmptyNetherNodeBlockEntity.java"
+        ]
+      },
+      "path": "~/Nodes/Empty"
+    },
+    {
+      "name": "OreNodeOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_node_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/procedures/OreNodeOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nodes/All/On Block Right Clicked"
+    },
+    {
+      "name": "NodesOreBlockTag",
+      "type": "tag",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nodes_ore_block_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/tags/blocks/nodes/ore.json"
+        ]
+      },
+      "path": "~/Nodes/All/On Block Right Clicked/Tags"
+    },
+    {
+      "name": "OreNodeMinMinuteScript",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_node_min_minute_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/procedures/OreNodeMinMinuteScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nodes/All/On Block Right Clicked/Procedures"
+    },
+    {
+      "name": "OreNodeMaxMinuteScript",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_node_max_minute_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/procedures/OreNodeMaxMinuteScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nodes/All/On Block Right Clicked/Procedures"
+    },
+    {
+      "name": "OreNodeDamageScript",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_node_damage_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/procedures/OreNodeDamageScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nodes/All/On Block Right Clicked/Procedures"
+    },
+    {
+      "name": "OreNodeHarvestDropScript",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_node_harvest_drop_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/procedures/OreNodeHarvestDropScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nodes/All/On Block Right Clicked/Procedures"
+    },
+    {
+      "name": "OreNodeHarvestScript",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_node_harvest_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/procedures/OreNodeHarvestScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nodes/All/On Block Right Clicked/Procedures"
+    },
+    {
+      "name": "NodesOreWoodToolsBlockTag",
+      "type": "tag",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nodes_ore_wood_tools_block_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/tags/blocks/nodes/ore/wood_tools.json"
+        ]
+      },
+      "path": "~/Nodes/All/On Block Right Clicked/Tags"
+    },
+    {
+      "name": "NodesOreStoneToolsBlockTag",
+      "type": "tag",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nodes_ore_stone_tools_block_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/tags/blocks/nodes/ore/stone_tools.json"
+        ]
+      },
+      "path": "~/Nodes/All/On Block Right Clicked/Tags"
+    },
+    {
+      "name": "NodesOreIronToolsBlockTag",
+      "type": "tag",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nodes_ore_iron_tools_block_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/tags/blocks/nodes/ore/iron_tools.json"
+        ]
+      },
+      "path": "~/Nodes/All/On Block Right Clicked/Tags"
+    },
+    {
+      "name": "NodesOreDiamondToolsBlockTag",
+      "type": "tag",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nodes_ore_diamond_tools_block_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/tags/blocks/nodes/ore/diamond_tools.json"
+        ]
+      },
+      "path": "~/Nodes/All/On Block Right Clicked/Tags"
+    },
+    {
+      "name": "NodesStoneBlockTag",
+      "type": "tag",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nodes_stone_block_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/tags/blocks/nodes/stone.json"
+        ]
+      },
+      "path": "~/Nodes/All/On Block Right Clicked/Tags"
+    },
+    {
+      "name": "NodesDeepslateBlockTag",
+      "type": "tag",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nodes_deepslate_block_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/tags/blocks/nodes/deepslate.json"
+        ]
+      },
+      "path": "~/Nodes/All/On Block Right Clicked/Tags"
+    },
+    {
+      "name": "NodesNetherBlockTag",
+      "type": "tag",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nodes_nether_block_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/tags/blocks/nodes/nether.json"
+        ]
+      },
+      "path": "~/Nodes/All/On Block Right Clicked/Tags"
+    },
+    {
+      "name": "ElevatorBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elevator_block_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/procedures/ElevatorBlockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "hitX",
+            "type": "number"
+          },
+          {
+            "name": "hitY",
+            "type": "number"
+          },
+          {
+            "name": "hitZ",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elevator"
+    },
+    {
+      "name": "ElevatorBlock",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elevator_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/ElevatorBlockBlock.java",
+          "src/main/java/net/nwtg/northsessentials/block/entity/ElevatorBlockBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/item/elevator_block.json",
+          "src/main/resources/assets/northsessentials/blockstates/elevator_block.json",
+          "src/main/resources/assets/northsessentials/models/block/elevator_block.json"
+        ]
+      },
+      "path": "~/Elevator"
+    },
+    {
+      "name": "ElevatorBlockBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elevator_block_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/procedures/ElevatorBlockBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elevator"
+    },
+    {
+      "name": "ElevatorDistanceScript",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elevator_distance_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/procedures/ElevatorDistanceScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "hitX",
+            "type": "number"
+          },
+          {
+            "name": "hitY",
+            "type": "number"
+          },
+          {
+            "name": "hitZ",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elevator"
+    },
+    {
+      "name": "ElevatorDxScript",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elevator_dx_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/procedures/ElevatorDxScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "hitX",
+            "type": "number"
+          },
+          {
+            "name": "hitY",
+            "type": "number"
+          },
+          {
+            "name": "hitZ",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elevator"
+    },
+    {
+      "name": "ElevatorDyScript",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elevator_dy_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/procedures/ElevatorDyScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "hitX",
+            "type": "number"
+          },
+          {
+            "name": "hitY",
+            "type": "number"
+          },
+          {
+            "name": "hitZ",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elevator"
+    },
+    {
+      "name": "ElevatorDzScript",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elevator_dz_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/procedures/ElevatorDzScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "hitX",
+            "type": "number"
+          },
+          {
+            "name": "hitY",
+            "type": "number"
+          },
+          {
+            "name": "hitZ",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elevator"
+    },
+    {
+      "name": "ElevatorUseScript",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elevator_use_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/procedures/ElevatorUseScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "hitX",
+            "type": "number"
+          },
+          {
+            "name": "hitY",
+            "type": "number"
+          },
+          {
+            "name": "hitZ",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elevator"
+    },
+    {
+      "name": "ElevatorBlockCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elevator_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/recipes/elevator_block_crafting.json"
+        ]
+      },
+      "path": "~/Elevator"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.northsessentials.ancient_debris_deepslate_node": "Ancient Debris Deepslate Node",
+      "block.northsessentials.amethyst_deepslate_node": "Amethyst Deepslate Node",
+      "block.northsessentials.nether_diamond_node": "Nether Diamond Node",
+      "block.northsessentials.diamond_node": "Diamond Node",
+      "block.northsessentials.nether_redstone_node": "Nether Redstone Node",
+      "block.northsessentials.gold_node": "Gold Node",
+      "block.northsessentials.nether_emerald_node": "Nether Emerald Node",
+      "block.northsessentials.nether_iron_node": "Nether Iron Node",
+      "block.northsessentials.empty_node": "Empty Node",
+      "block.northsessentials.nether_ancient_debris_node": "Nether Ancient Debris Node",
+      "block.northsessentials.empty_deepslate_node": "Empty Deepslate Node",
+      "block.northsessentials.lapis_deepslate_node": "Lapis Deepslate Node",
+      "block.northsessentials.iron_deepslate_node": "Iron Deepslate Node",
+      "block.northsessentials.coal_node": "Coal Node",
+      "block.northsessentials.copper_deepslate_node": "Copper Deepslate Node",
+      "block.northsessentials.redstone_deepslate_node": "Redstone Deepslate Node",
+      "block.northsessentials.emerald_node": "Emerald Node",
+      "block.northsessentials.nether_copper_node": "Nether Copper Node",
+      "block.northsessentials.elevator_block": "Elevator Block",
+      "block.northsessentials.quartz_node": "Quartz Node",
+      "block.northsessentials.coal_deepslate_node": "Coal Deepslate Node",
+      "block.northsessentials.nether_coal_node": "Nether Coal Node",
+      "block.northsessentials.gold_deepslate_node": "Gold Deepslate Node",
+      "block.northsessentials.quartz_deepslate_node": "Quartz Deepslate Node",
+      "block.northsessentials.iron_node": "Iron Node",
+      "block.northsessentials.nether_gold_node": "Nether Gold Node",
+      "block.northsessentials.lapis_node": "Lapis Node",
+      "block.northsessentials.emerald_deepslate_node": "Emerald Deepslate Node",
+      "block.northsessentials.ancient_debris_node": "Ancient Debris Node",
+      "block.northsessentials.empty_nether_node": "Empty Nether Node",
+      "block.northsessentials.diamond_deepslate_node": "Diamond Deepslate Node",
+      "block.northsessentials.nether_quartz_node": "Nether Quartz Node",
+      "block.northsessentials.amethyst_node": "Amethyst Node",
+      "block.northsessentials.nether_amethyst_node": "Nether Amethyst Node",
+      "block.northsessentials.copper_node": "Copper Node",
+      "block.northsessentials.redstone_node": "Redstone Node",
+      "block.northsessentials.nether_lapis_node": "Nether Lapis Node"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Nodes",
+        "children": [
+          {
+            "name": "All",
+            "children": [
+              {
+                "name": "On Block Right Clicked",
+                "children": [
+                  {
+                    "name": "Tags",
+                    "children": []
+                  },
+                  {
+                    "name": "Procedures",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Empty",
+            "children": []
+          },
+          {
+            "name": "Stone",
+            "children": [
+              {
+                "name": "Coal",
+                "children": []
+              },
+              {
+                "name": "Copper",
+                "children": []
+              },
+              {
+                "name": "Iron",
+                "children": []
+              },
+              {
+                "name": "Quartz",
+                "children": []
+              },
+              {
+                "name": "Amethyst",
+                "children": []
+              },
+              {
+                "name": "Emerald",
+                "children": []
+              },
+              {
+                "name": "Gold",
+                "children": []
+              },
+              {
+                "name": "Lapis",
+                "children": []
+              },
+              {
+                "name": "Redstone",
+                "children": []
+              },
+              {
+                "name": "Diamond",
+                "children": []
+              },
+              {
+                "name": "Ancient Debris",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Deepslate",
+            "children": [
+              {
+                "name": "Coal",
+                "children": []
+              },
+              {
+                "name": "Copper",
+                "children": []
+              },
+              {
+                "name": "Iron",
+                "children": []
+              },
+              {
+                "name": "Quartz",
+                "children": []
+              },
+              {
+                "name": "Amethyst",
+                "children": []
+              },
+              {
+                "name": "Emerald",
+                "children": []
+              },
+              {
+                "name": "Gold",
+                "children": []
+              },
+              {
+                "name": "Lapis",
+                "children": []
+              },
+              {
+                "name": "Redstone",
+                "children": []
+              },
+              {
+                "name": "Diamond",
+                "children": []
+              },
+              {
+                "name": "Ancient Debris",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Nether",
+            "children": [
+              {
+                "name": "Coal",
+                "children": []
+              },
+              {
+                "name": "Copper",
+                "children": []
+              },
+              {
+                "name": "Iron",
+                "children": []
+              },
+              {
+                "name": "Quartz",
+                "children": []
+              },
+              {
+                "name": "Amethyst",
+                "children": []
+              },
+              {
+                "name": "Emerald",
+                "children": []
+              },
+              {
+                "name": "Gold",
+                "children": []
+              },
+              {
+                "name": "Lapis",
+                "children": []
+              },
+              {
+                "name": "Redstone",
+                "children": []
+              },
+              {
+                "name": "Diamond",
+                "children": []
+              },
+              {
+                "name": "Ancient Debris",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NorthGuard",
+        "children": []
+      },
+      {
+        "name": "Elevator",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "northsessentials",
+    "modName": "NorthsEssentials",
+    "version": "1.0.0",
+    "author": "kiera, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.nwtg.northsessentials",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300223515
+}

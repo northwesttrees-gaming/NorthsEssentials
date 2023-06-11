@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "northsessentials:block/redstone_node"
+    },
+    "facing=east": {
+      "model": "northsessentials:block/redstone_node",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "northsessentials:block/redstone_node",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "northsessentials:block/redstone_node",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:DiamondNode"
+      },
+      {
+        "value": "CUSTOM:DiamondDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:NetherDiamondNode"
+      },
+      {
+        "value": "CUSTOM:EmeraldNode"
+      },
+      {
+        "value": "CUSTOM:EmeraldDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:NetherEmeraldNode"
+      },
+      {
+        "value": "CUSTOM:GoldNode"
+      },
+      {
+        "value": "CUSTOM:GoldDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:RedstoneNode"
+      },
+      {
+        "value": "CUSTOM:RedstoneDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:NetherRedstoneNode"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "nodes/ore/iron_tools",
+    "namespace": "northsessentials"
+  }
+}

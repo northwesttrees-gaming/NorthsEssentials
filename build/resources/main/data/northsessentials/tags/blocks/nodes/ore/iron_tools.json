@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "northsessentials:gold_node",
+    "northsessentials:nether_diamond_node",
+    "northsessentials:emerald_deepslate_node",
+    "northsessentials:emerald_node",
+    "northsessentials:redstone_node",
+    "northsessentials:diamond_node",
+    "northsessentials:diamond_deepslate_node",
+    "northsessentials:nether_redstone_node",
+    "northsessentials:nether_emerald_node",
+    "northsessentials:redstone_deepslate_node",
+    "northsessentials:gold_deepslate_node"
+  ]
+}

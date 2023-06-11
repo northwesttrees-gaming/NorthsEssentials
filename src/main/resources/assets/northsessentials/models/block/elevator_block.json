@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "northsessentials:blocks/elevator_sides",
+    "up": "northsessentials:blocks/elevator_sides",
+    "north": "northsessentials:blocks/elevator_front",
+    "east": "northsessentials:blocks/elevator_sides",
+    "south": "northsessentials:blocks/elevator_sides",
+    "west": "northsessentials:blocks/elevator_sides",
+    "particle": "northsessentials:blocks/elevator_sides"
+  },
+  "render_type": "solid"
+}

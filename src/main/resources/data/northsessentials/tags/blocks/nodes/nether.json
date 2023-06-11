@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "northsessentials:nether_iron_node",
+    "northsessentials:nether_diamond_node",
+    "northsessentials:nether_quartz_node",
+    "northsessentials:nether_gold_node",
+    "northsessentials:nether_coal_node",
+    "northsessentials:nether_copper_node",
+    "northsessentials:nether_ancient_debris_node",
+    "northsessentials:nether_lapis_node",
+    "northsessentials:nether_redstone_node",
+    "northsessentials:nether_emerald_node",
+    "northsessentials:nether_amethyst_node"
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "crystal_1": "coal_node_1",
+        "crystal_2": "coal_node_2",
+        "crystal_0": "coal_node_0",
+        "stone": "node_stone"
+      },
+      "name": "default"
+    },
+    "copper": {
+      "map": {
+        "crystal_1": "copper_node_1",
+        "crystal_2": "copper_node_2",
+        "crystal_0": "copper_node_0",
+        "stone": "node_stone"
+      },
+      "name": "copper"
+    },
+    "iron": {
+      "map": {
+        "crystal_1": "iron_node_1",
+        "crystal_2": "iron_node_2",
+        "crystal_0": "iron_node_0",
+        "stone": "node_stone"
+      },
+      "name": "iron"
+    },
+    "emerald": {
+      "map": {
+        "crystal_1": "emerald_node_1",
+        "crystal_2": "emerald_node_2",
+        "crystal_0": "emerald_node_0",
+        "stone": "node_stone"
+      },
+      "name": "emerald"
+    },
+    "gold": {
+      "map": {
+        "crystal_1": "gold_node_1",
+        "crystal_2": "gold_node_2",
+        "crystal_0": "gold_node_0",
+        "stone": "node_stone"
+      },
+      "name": "gold"
+    },
+    "lapis": {
+      "map": {
+        "crystal_1": "lapis_node_1",
+        "crystal_2": "lapis_node_2",
+        "crystal_0": "lapis_node_0",
+        "stone": "node_stone"
+      },
+      "name": "lapis"
+    },
+    "redstone": {
+      "map": {
+        "crystal_1": "redstone_node_1",
+        "crystal_2": "redstone_node_2",
+        "crystal_0": "redstone_node_0",
+        "stone": "node_stone"
+      },
+      "name": "redstone"
+    },
+    "diamond": {
+      "map": {
+        "crystal_1": "diamond_node_1",
+        "crystal_2": "diamond_node_2",
+        "crystal_0": "diamond_node_0",
+        "stone": "node_stone"
+      },
+      "name": "diamond"
+    },
+    "quartz": {
+      "map": {
+        "crystal_1": "quartz_node_1",
+        "crystal_2": "quartz_node_2",
+        "crystal_0": "quartz_node_0",
+        "stone": "node_stone"
+      },
+      "name": "quartz"
+    },
+    "amethyst": {
+      "map": {
+        "crystal_1": "amethyst_node_1",
+        "crystal_2": "amethyst_node_2",
+        "crystal_0": "amethyst_node_0",
+        "stone": "node_stone"
+      },
+      "name": "amethyst"
+    },
+    "deep_coal": {
+      "map": {
+        "crystal_1": "coal_node_1",
+        "crystal_2": "coal_node_2",
+        "crystal_0": "coal_node_0",
+        "stone": "node_deepslate_stone"
+      },
+      "name": "deep_coal"
+    },
+    "deep_copper": {
+      "map": {
+        "crystal_1": "copper_node_1",
+        "crystal_2": "copper_node_2",
+        "crystal_0": "copper_node_0",
+        "stone": "node_deepslate_stone"
+      },
+      "name": "deep_copper"
+    },
+    "deep_iron": {
+      "map": {
+        "crystal_1": "iron_node_1",
+        "crystal_2": "iron_node_2",
+        "crystal_0": "iron_node_0",
+        "stone": "node_deepslate_stone"
+      },
+      "name": "deep_iron"
+    },
+    "deep_emerald": {
+      "map": {
+        "crystal_1": "emerald_node_1",
+        "crystal_2": "emerald_node_2",
+        "crystal_0": "emerald_node_0",
+        "stone": "node_deepslate_stone"
+      },
+      "name": "deep_emerald"
+    },
+    "deep_gold": {
+      "map": {
+        "crystal_1": "gold_node_1",
+        "crystal_2": "gold_node_2",
+        "crystal_0": "gold_node_0",
+        "stone": "node_deepslate_stone"
+      },
+      "name": "deep_gold"
+    },
+    "deep_lapis": {
+      "map": {
+        "crystal_1": "lapis_node_1",
+        "crystal_2": "lapis_node_2",
+        "crystal_0": "lapis_node_0",
+        "stone": "node_deepslate_stone"
+      },
+      "name": "deep_lapis"
+    },
+    "deep_redstone": {
+      "map": {
+        "crystal_1": "redstone_node_1",
+        "crystal_2": "redstone_node_2",
+        "crystal_0": "redstone_node_0",
+        "stone": "node_deepslate_stone"
+      },
+      "name": "deep_redstone"
+    },
+    "deep_diamond": {
+      "map": {
+        "crystal_1": "diamond_node_1",
+        "crystal_2": "diamond_node_2",
+        "crystal_0": "diamond_node_0",
+        "stone": "node_deepslate_stone"
+      },
+      "name": "deep_diamond"
+    },
+    "deep_amethyst": {
+      "map": {
+        "crystal_1": "amethyst_node_1",
+        "crystal_2": "amethyst_node_2",
+        "crystal_0": "amethyst_node_0",
+        "stone": "node_deepslate_stone"
+      },
+      "name": "deep_amethyst"
+    },
+    "nether_gold": {
+      "map": {
+        "crystal_1": "gold_node_1",
+        "crystal_2": "gold_node_2",
+        "crystal_0": "gold_node_0",
+        "stone": "node_nether_stone"
+      },
+      "name": "nether_gold"
+    },
+    "nether_coal": {
+      "map": {
+        "crystal_1": "coal_node_1",
+        "crystal_2": "coal_node_2",
+        "crystal_0": "coal_node_0",
+        "stone": "node_nether_stone"
+      },
+      "name": "nether_coal"
+    },
+    "nether_copper": {
+      "map": {
+        "crystal_1": "copper_node_1",
+        "crystal_2": "copper_node_2",
+        "crystal_0": "copper_node_0",
+        "stone": "node_nether_stone"
+      },
+      "name": "nether_copper"
+    },
+    "nether_iron": {
+      "map": {
+        "crystal_1": "iron_node_1",
+        "crystal_2": "iron_node_2",
+        "crystal_0": "iron_node_0",
+        "stone": "node_nether_stone"
+      },
+      "name": "nether_iron"
+    },
+    "nether_emerald": {
+      "map": {
+        "crystal_1": "emerald_node_1",
+        "crystal_2": "emerald_node_2",
+        "crystal_0": "emerald_node_0",
+        "stone": "node_nether_stone"
+      },
+      "name": "nether_emerald"
+    },
+    "nether_amethyst": {
+      "map": {
+        "crystal_1": "amethyst_node_1",
+        "crystal_2": "amethyst_node_2",
+        "crystal_0": "amethyst_node_0",
+        "stone": "node_nether_stone"
+      },
+      "name": "nether_amethyst"
+    },
+    "nether_lapis": {
+      "map": {
+        "crystal_1": "lapis_node_1",
+        "crystal_2": "lapis_node_2",
+        "crystal_0": "lapis_node_0",
+        "stone": "node_nether_stone"
+      },
+      "name": "nether_lapis"
+    },
+    "nether_redstone": {
+      "map": {
+        "crystal_1": "redstone_node_1",
+        "crystal_2": "redstone_node_2",
+        "crystal_0": "redstone_node_0",
+        "stone": "node_nether_stone"
+      },
+      "name": "nether_redstone"
+    },
+    "nether_diamond": {
+      "map": {
+        "crystal_1": "diamond_node_1",
+        "crystal_2": "diamond_node_2",
+        "crystal_0": "diamond_node_0",
+        "stone": "node_nether_stone"
+      },
+      "name": "nether_diamond"
+    },
+    "nether_quartz": {
+      "map": {
+        "crystal_1": "quartz_node_1",
+        "crystal_2": "quartz_node_2",
+        "crystal_0": "quartz_node_0",
+        "stone": "node_nether_stone"
+      },
+      "name": "nether_quartz"
+    },
+    "deep_quartz": {
+      "map": {
+        "crystal_1": "quartz_node_1",
+        "crystal_2": "quartz_node_2",
+        "crystal_0": "quartz_node_0",
+        "stone": "node_deepslate_stone"
+      },
+      "name": "deep_quartz"
+    },
+    "ancient_debris": {
+      "map": {
+        "crystal_1": "ancient_debris_node_1",
+        "crystal_2": "ancient_debris_node_2",
+        "crystal_0": "ancient_debris_node_0",
+        "stone": "node_stone"
+      },
+      "name": "ancient_debris"
+    },
+    "deep_ancient_debris": {
+      "map": {
+        "crystal_1": "ancient_debris_node_1",
+        "crystal_2": "ancient_debris_node_2",
+        "crystal_0": "ancient_debris_node_0",
+        "stone": "node_deepslate_stone"
+      },
+      "name": "deep_ancient_debris"
+    },
+    "nether_ancient_debris": {
+      "map": {
+        "crystal_1": "ancient_debris_node_1",
+        "crystal_2": "ancient_debris_node_2",
+        "crystal_0": "ancient_debris_node_0",
+        "stone": "node_nether_stone"
+      },
+      "name": "nether_ancient_debris"
+    }
+  }
+}

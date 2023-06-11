@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="northsessentials"
+version="1.0.0"
+displayName="NorthsEssentials"
+credits="Minecraft, Forge, MCreator"
+displayURL="https://github.com/northwesttrees-gaming/NorthsEssentials"
+updateJSONURL="https://raw.githubusercontent.com/northwesttrees-gaming/NorthsEssentials/main/updates.json"
+logoFile="logo.png"
+authors="NorthWestTrees"
+description="This mod adds some handy Minecraft server features. A few examples are nodes that regenerate over time. The ore nodes are made for regeneration. They can be used to make regeneration mines. Also, elevators can provide elevators."
+
+[[dependencies.northsessentials]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

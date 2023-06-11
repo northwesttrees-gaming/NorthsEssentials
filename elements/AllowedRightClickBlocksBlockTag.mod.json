@@ -1,0 +1,123 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:GoldNode"
+      },
+      {
+        "value": "CUSTOM:CopperNode"
+      },
+      {
+        "value": "CUSTOM:CoalNode"
+      },
+      {
+        "value": "CUSTOM:IronNode"
+      },
+      {
+        "value": "CUSTOM:EmeraldNode"
+      },
+      {
+        "value": "CUSTOM:LapisNode"
+      },
+      {
+        "value": "CUSTOM:RedstoneNode"
+      },
+      {
+        "value": "CUSTOM:DiamondNode"
+      },
+      {
+        "value": "CUSTOM:QuartzNode"
+      },
+      {
+        "value": "CUSTOM:CoalDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:CopperDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:IronDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:EmeraldDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:GoldDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:LapisDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:RedstoneDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:DiamondDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:NetherGoldNode"
+      },
+      {
+        "value": "CUSTOM:AmethystNode"
+      },
+      {
+        "value": "CUSTOM:AncientDebrisNode"
+      },
+      {
+        "value": "CUSTOM:QuartzDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:AmethystDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:AncientDebrisDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:NetherCoalNode"
+      },
+      {
+        "value": "CUSTOM:NetherCopperNode"
+      },
+      {
+        "value": "CUSTOM:NetherIronNode"
+      },
+      {
+        "value": "CUSTOM:NetherEmeraldNode"
+      },
+      {
+        "value": "CUSTOM:NetherLapisNode"
+      },
+      {
+        "value": "CUSTOM:NetherRedstoneNode"
+      },
+      {
+        "value": "CUSTOM:NetherDiamondNode"
+      },
+      {
+        "value": "CUSTOM:NetherQuartzNode"
+      },
+      {
+        "value": "CUSTOM:NetherAmethystNode"
+      },
+      {
+        "value": "CUSTOM:NetherAncientDebrisNode"
+      },
+      {
+        "value": "CUSTOM:EmptyNode"
+      },
+      {
+        "value": "CUSTOM:EmptyDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:EmptyNetherNode"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "allowed/right_click/blocks",
+    "namespace": "northguard"
+  }
+}
