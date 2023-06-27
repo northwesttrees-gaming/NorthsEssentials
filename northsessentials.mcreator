@@ -16,7 +16,7 @@
           "src/main/java/net/nwtg/northsessentials/block/entity/GoldNodeBlockEntity.java"
         ]
       },
-      "path": "~/Nodes/Stone/Gold"
+      "path": "~/NorthEssentials/Nodes/Stone/Gold"
     },
     {
       "name": "NodeBlockIsPlacedBy",
@@ -52,7 +52,7 @@
           }
         ]
       },
-      "path": "~/Nodes/All"
+      "path": "~/NorthEssentials/Nodes/All"
     },
     {
       "name": "CopperNode",
@@ -70,7 +70,7 @@
           "src/main/java/net/nwtg/northsessentials/block/entity/CopperNodeBlockEntity.java"
         ]
       },
-      "path": "~/Nodes/Stone/Copper"
+      "path": "~/NorthEssentials/Nodes/Stone/Copper"
     },
     {
       "name": "CoalNode",
@@ -88,7 +88,7 @@
           "src/main/resources/assets/northsessentials/blockstates/coal_node.json"
         ]
       },
-      "path": "~/Nodes/Stone/Coal"
+      "path": "~/NorthEssentials/Nodes/Stone/Coal"
     },
     {
       "name": "IronNode",
@@ -106,7 +106,7 @@
           "src/main/resources/assets/northsessentials/models/item/iron_node.json"
         ]
       },
-      "path": "~/Nodes/Stone/Iron"
+      "path": "~/NorthEssentials/Nodes/Stone/Iron"
     },
     {
       "name": "EmeraldNode",
@@ -124,7 +124,7 @@
           "src/main/resources/assets/northsessentials/models/block/emerald_node.json"
         ]
       },
-      "path": "~/Nodes/Stone/Emerald"
+      "path": "~/NorthEssentials/Nodes/Stone/Emerald"
     },
     {
       "name": "LapisNode",
@@ -142,7 +142,7 @@
           "src/main/resources/assets/northsessentials/models/block/lapis_node.json"
         ]
       },
-      "path": "~/Nodes/Stone/Lapis"
+      "path": "~/NorthEssentials/Nodes/Stone/Lapis"
     },
     {
       "name": "RedstoneNode",
@@ -160,7 +160,7 @@
           "src/main/java/net/nwtg/northsessentials/block/RedstoneNodeBlock.java"
         ]
       },
-      "path": "~/Nodes/Stone/Redstone"
+      "path": "~/NorthEssentials/Nodes/Stone/Redstone"
     },
     {
       "name": "DiamondNode",
@@ -178,7 +178,7 @@
           "src/main/java/net/nwtg/northsessentials/block/DiamondNodeBlock.java"
         ]
       },
-      "path": "~/Nodes/Stone/Diamond"
+      "path": "~/NorthEssentials/Nodes/Stone/Diamond"
     },
     {
       "name": "QuartzNode",
@@ -196,7 +196,7 @@
           "src/main/resources/assets/northsessentials/models/block/quartz_node.json"
         ]
       },
-      "path": "~/Nodes/Stone/Quartz"
+      "path": "~/NorthEssentials/Nodes/Stone/Quartz"
     },
     {
       "name": "CancelBlockPlacedWhenEditingNodes",
@@ -216,21 +216,7 @@
           }
         ]
       },
-      "path": "~/Nodes/All"
-    },
-    {
-      "name": "NodesBlockTag",
-      "type": "tag",
-      "sortid": 63,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "nodes_block_tag",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/northessentials/tags/blocks/nodes.json"
-        ]
-      },
-      "path": "~/Nodes/All"
+      "path": "~/NorthEssentials/Nodes/All"
     },
     {
       "name": "AllowedRightClickBlocksBlockTag",
@@ -262,7 +248,7 @@
           "src/main/resources/assets/northsessentials/blockstates/coal_deepslate_node.json"
         ]
       },
-      "path": "~/Nodes/Deepslate/Coal"
+      "path": "~/NorthEssentials/Nodes/Deepslate/Coal"
     },
     {
       "name": "CopperDeepslateNode",
@@ -280,7 +266,7 @@
           "src/main/java/net/nwtg/northsessentials/block/CopperDeepslateNodeBlock.java"
         ]
       },
-      "path": "~/Nodes/Deepslate/Copper"
+      "path": "~/NorthEssentials/Nodes/Deepslate/Copper"
     },
     {
       "name": "IronDeepslateNode",
@@ -298,7 +284,7 @@
           "src/main/java/net/nwtg/northsessentials/block/IronDeepslateNodeBlock.java"
         ]
       },
-      "path": "~/Nodes/Deepslate/Iron"
+      "path": "~/NorthEssentials/Nodes/Deepslate/Iron"
     },
     {
       "name": "EmeraldDeepslateNode",
@@ -316,7 +302,7 @@
           "src/main/resources/assets/northsessentials/models/block/emerald_deepslate_node.json"
         ]
       },
-      "path": "~/Nodes/Deepslate/Emerald"
+      "path": "~/NorthEssentials/Nodes/Deepslate/Emerald"
     },
     {
       "name": "GoldDeepslateNode",
@@ -334,7 +320,7 @@
           "src/main/java/net/nwtg/northsessentials/block/entity/GoldDeepslateNodeBlockEntity.java"
         ]
       },
-      "path": "~/Nodes/Deepslate/Gold"
+      "path": "~/NorthEssentials/Nodes/Deepslate/Gold"
     },
     {
       "name": "LapisDeepslateNode",
@@ -352,7 +338,7 @@
           "src/main/resources/assets/northsessentials/blockstates/lapis_deepslate_node.json"
         ]
       },
-      "path": "~/Nodes/Deepslate/Lapis"
+      "path": "~/NorthEssentials/Nodes/Deepslate/Lapis"
     },
     {
       "name": "RedstoneDeepslateNode",
@@ -370,7 +356,7 @@
           "src/main/resources/assets/northsessentials/models/item/redstone_deepslate_node.json"
         ]
       },
-      "path": "~/Nodes/Deepslate/Redstone"
+      "path": "~/NorthEssentials/Nodes/Deepslate/Redstone"
     },
     {
       "name": "DiamondDeepslateNode",
@@ -388,7 +374,7 @@
           "src/main/resources/assets/northsessentials/blockstates/diamond_deepslate_node.json"
         ]
       },
-      "path": "~/Nodes/Deepslate/Diamond"
+      "path": "~/NorthEssentials/Nodes/Deepslate/Diamond"
     },
     {
       "name": "NetherGoldNode",
@@ -406,7 +392,7 @@
           "src/main/resources/assets/northsessentials/blockstates/nether_gold_node.json"
         ]
       },
-      "path": "~/Nodes/Nether/Gold"
+      "path": "~/NorthEssentials/Nodes/Nether/Gold"
     },
     {
       "name": "AmethystNode",
@@ -424,7 +410,7 @@
           "src/main/resources/assets/northsessentials/blockstates/amethyst_node.json"
         ]
       },
-      "path": "~/Nodes/Stone/Amethyst"
+      "path": "~/NorthEssentials/Nodes/Stone/Amethyst"
     },
     {
       "name": "AncientDebrisNode",
@@ -442,7 +428,7 @@
           "src/main/resources/assets/northsessentials/models/block/ancient_debris_node.json"
         ]
       },
-      "path": "~/Nodes/Stone/Ancient Debris"
+      "path": "~/NorthEssentials/Nodes/Stone/Ancient Debris"
     },
     {
       "name": "QuartzDeepslateNode",
@@ -460,7 +446,7 @@
           "src/main/resources/assets/northsessentials/blockstates/quartz_deepslate_node.json"
         ]
       },
-      "path": "~/Nodes/Deepslate/Quartz"
+      "path": "~/NorthEssentials/Nodes/Deepslate/Quartz"
     },
     {
       "name": "AmethystDeepslateNode",
@@ -478,7 +464,7 @@
           "src/main/resources/assets/northsessentials/models/block/amethyst_deepslate_node.json"
         ]
       },
-      "path": "~/Nodes/Deepslate/Amethyst"
+      "path": "~/NorthEssentials/Nodes/Deepslate/Amethyst"
     },
     {
       "name": "AncientDebrisDeepslateNode",
@@ -496,7 +482,7 @@
           "src/main/resources/assets/northsessentials/models/block/ancient_debris_deepslate_node.json"
         ]
       },
-      "path": "~/Nodes/Deepslate/Ancient Debris"
+      "path": "~/NorthEssentials/Nodes/Deepslate/Ancient Debris"
     },
     {
       "name": "NetherCoalNode",
@@ -514,7 +500,7 @@
           "src/main/resources/assets/northsessentials/blockstates/nether_coal_node.json"
         ]
       },
-      "path": "~/Nodes/Nether/Coal"
+      "path": "~/NorthEssentials/Nodes/Nether/Coal"
     },
     {
       "name": "NetherCopperNode",
@@ -532,7 +518,7 @@
           "src/main/resources/assets/northsessentials/models/item/nether_copper_node.json"
         ]
       },
-      "path": "~/Nodes/Nether/Copper"
+      "path": "~/NorthEssentials/Nodes/Nether/Copper"
     },
     {
       "name": "NetherIronNode",
@@ -550,7 +536,7 @@
           "src/main/resources/assets/northsessentials/blockstates/nether_iron_node.json"
         ]
       },
-      "path": "~/Nodes/Nether/Iron"
+      "path": "~/NorthEssentials/Nodes/Nether/Iron"
     },
     {
       "name": "NetherEmeraldNode",
@@ -568,7 +554,7 @@
           "src/main/java/net/nwtg/northsessentials/block/entity/NetherEmeraldNodeBlockEntity.java"
         ]
       },
-      "path": "~/Nodes/Nether/Emerald"
+      "path": "~/NorthEssentials/Nodes/Nether/Emerald"
     },
     {
       "name": "NetherLapisNode",
@@ -586,7 +572,7 @@
           "src/main/resources/assets/northsessentials/blockstates/nether_lapis_node.json"
         ]
       },
-      "path": "~/Nodes/Nether/Lapis"
+      "path": "~/NorthEssentials/Nodes/Nether/Lapis"
     },
     {
       "name": "NetherRedstoneNode",
@@ -604,7 +590,7 @@
           "src/main/resources/assets/northsessentials/models/block/nether_redstone_node.json"
         ]
       },
-      "path": "~/Nodes/Nether/Redstone"
+      "path": "~/NorthEssentials/Nodes/Nether/Redstone"
     },
     {
       "name": "NetherDiamondNode",
@@ -622,7 +608,7 @@
           "src/main/java/net/nwtg/northsessentials/block/entity/NetherDiamondNodeBlockEntity.java"
         ]
       },
-      "path": "~/Nodes/Nether/Diamond"
+      "path": "~/NorthEssentials/Nodes/Nether/Diamond"
     },
     {
       "name": "NetherQuartzNode",
@@ -640,7 +626,7 @@
           "src/main/resources/assets/northsessentials/models/item/nether_quartz_node.json"
         ]
       },
-      "path": "~/Nodes/Nether/Quartz"
+      "path": "~/NorthEssentials/Nodes/Nether/Quartz"
     },
     {
       "name": "NetherAmethystNode",
@@ -658,7 +644,7 @@
           "src/main/resources/assets/northsessentials/blockstates/nether_amethyst_node.json"
         ]
       },
-      "path": "~/Nodes/Nether/Amethyst"
+      "path": "~/NorthEssentials/Nodes/Nether/Amethyst"
     },
     {
       "name": "NetherAncientDebrisNode",
@@ -676,7 +662,7 @@
           "src/main/resources/assets/northsessentials/blockstates/nether_ancient_debris_node.json"
         ]
       },
-      "path": "~/Nodes/Nether/Ancient Debris"
+      "path": "~/NorthEssentials/Nodes/Nether/Ancient Debris"
     },
     {
       "name": "EmptyNodeUpdateTick",
@@ -712,7 +698,7 @@
           }
         ]
       },
-      "path": "~/Nodes/Empty"
+      "path": "~/NorthEssentials/Nodes/Empty"
     },
     {
       "name": "EmptyNode",
@@ -730,7 +716,7 @@
           "src/main/java/net/nwtg/northsessentials/block/EmptyNodeBlock.java"
         ]
       },
-      "path": "~/Nodes/Empty"
+      "path": "~/NorthEssentials/Nodes/Empty"
     },
     {
       "name": "EmptyDeepslateNode",
@@ -748,7 +734,7 @@
           "src/main/resources/assets/northsessentials/blockstates/empty_deepslate_node.json"
         ]
       },
-      "path": "~/Nodes/Empty"
+      "path": "~/NorthEssentials/Nodes/Empty"
     },
     {
       "name": "EmptyNetherNode",
@@ -766,7 +752,7 @@
           "src/main/java/net/nwtg/northsessentials/block/entity/EmptyNetherNodeBlockEntity.java"
         ]
       },
-      "path": "~/Nodes/Empty"
+      "path": "~/NorthEssentials/Nodes/Empty"
     },
     {
       "name": "OreNodeOnBlockRightClicked",
@@ -806,7 +792,7 @@
           }
         ]
       },
-      "path": "~/Nodes/All/On Block Right Clicked"
+      "path": "~/NorthEssentials/Nodes/All/On Block Right Clicked"
     },
     {
       "name": "NodesOreBlockTag",
@@ -820,7 +806,7 @@
           "src/main/resources/data/northsessentials/tags/blocks/nodes/ore.json"
         ]
       },
-      "path": "~/Nodes/All/On Block Right Clicked/Tags"
+      "path": "~/NorthEssentials/Nodes/All/On Block Right Clicked/Tags"
     },
     {
       "name": "OreNodeMinMinuteScript",
@@ -856,7 +842,7 @@
           }
         ]
       },
-      "path": "~/Nodes/All/On Block Right Clicked/Procedures"
+      "path": "~/NorthEssentials/Nodes/All/On Block Right Clicked/Procedures"
     },
     {
       "name": "OreNodeMaxMinuteScript",
@@ -892,7 +878,7 @@
           }
         ]
       },
-      "path": "~/Nodes/All/On Block Right Clicked/Procedures"
+      "path": "~/NorthEssentials/Nodes/All/On Block Right Clicked/Procedures"
     },
     {
       "name": "OreNodeDamageScript",
@@ -928,7 +914,7 @@
           }
         ]
       },
-      "path": "~/Nodes/All/On Block Right Clicked/Procedures"
+      "path": "~/NorthEssentials/Nodes/All/On Block Right Clicked/Procedures"
     },
     {
       "name": "OreNodeHarvestDropScript",
@@ -964,7 +950,7 @@
           }
         ]
       },
-      "path": "~/Nodes/All/On Block Right Clicked/Procedures"
+      "path": "~/NorthEssentials/Nodes/All/On Block Right Clicked/Procedures"
     },
     {
       "name": "OreNodeHarvestScript",
@@ -1000,7 +986,7 @@
           }
         ]
       },
-      "path": "~/Nodes/All/On Block Right Clicked/Procedures"
+      "path": "~/NorthEssentials/Nodes/All/On Block Right Clicked/Procedures"
     },
     {
       "name": "NodesOreWoodToolsBlockTag",
@@ -1014,7 +1000,7 @@
           "src/main/resources/data/northsessentials/tags/blocks/nodes/ore/wood_tools.json"
         ]
       },
-      "path": "~/Nodes/All/On Block Right Clicked/Tags"
+      "path": "~/NorthEssentials/Nodes/All/On Block Right Clicked/Tags"
     },
     {
       "name": "NodesOreStoneToolsBlockTag",
@@ -1028,7 +1014,7 @@
           "src/main/resources/data/northsessentials/tags/blocks/nodes/ore/stone_tools.json"
         ]
       },
-      "path": "~/Nodes/All/On Block Right Clicked/Tags"
+      "path": "~/NorthEssentials/Nodes/All/On Block Right Clicked/Tags"
     },
     {
       "name": "NodesOreIronToolsBlockTag",
@@ -1042,7 +1028,7 @@
           "src/main/resources/data/northsessentials/tags/blocks/nodes/ore/iron_tools.json"
         ]
       },
-      "path": "~/Nodes/All/On Block Right Clicked/Tags"
+      "path": "~/NorthEssentials/Nodes/All/On Block Right Clicked/Tags"
     },
     {
       "name": "NodesOreDiamondToolsBlockTag",
@@ -1056,7 +1042,7 @@
           "src/main/resources/data/northsessentials/tags/blocks/nodes/ore/diamond_tools.json"
         ]
       },
-      "path": "~/Nodes/All/On Block Right Clicked/Tags"
+      "path": "~/NorthEssentials/Nodes/All/On Block Right Clicked/Tags"
     },
     {
       "name": "NodesStoneBlockTag",
@@ -1070,7 +1056,7 @@
           "src/main/resources/data/northsessentials/tags/blocks/nodes/stone.json"
         ]
       },
-      "path": "~/Nodes/All/On Block Right Clicked/Tags"
+      "path": "~/NorthEssentials/Nodes/All/On Block Right Clicked/Tags"
     },
     {
       "name": "NodesDeepslateBlockTag",
@@ -1084,7 +1070,7 @@
           "src/main/resources/data/northsessentials/tags/blocks/nodes/deepslate.json"
         ]
       },
-      "path": "~/Nodes/All/On Block Right Clicked/Tags"
+      "path": "~/NorthEssentials/Nodes/All/On Block Right Clicked/Tags"
     },
     {
       "name": "NodesNetherBlockTag",
@@ -1098,7 +1084,7 @@
           "src/main/resources/data/northsessentials/tags/blocks/nodes/nether.json"
         ]
       },
-      "path": "~/Nodes/All/On Block Right Clicked/Tags"
+      "path": "~/NorthEssentials/Nodes/All/On Block Right Clicked/Tags"
     },
     {
       "name": "ElevatorBlockOnBlockRightClicked",
@@ -1150,25 +1136,7 @@
           }
         ]
       },
-      "path": "~/Elevator"
-    },
-    {
-      "name": "ElevatorBlock",
-      "type": "block",
-      "sortid": 157,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "elevator_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/nwtg/northsessentials/block/ElevatorBlockBlock.java",
-          "src/main/java/net/nwtg/northsessentials/block/entity/ElevatorBlockBlockEntity.java",
-          "src/main/resources/assets/northsessentials/models/item/elevator_block.json",
-          "src/main/resources/assets/northsessentials/blockstates/elevator_block.json",
-          "src/main/resources/assets/northsessentials/models/block/elevator_block.json"
-        ]
-      },
-      "path": "~/Elevator"
+      "path": "~/NorthEssentials/Elevator/Procedures"
     },
     {
       "name": "ElevatorBlockBlockIsPlacedBy",
@@ -1204,7 +1172,7 @@
           }
         ]
       },
-      "path": "~/Elevator"
+      "path": "~/NorthEssentials/Elevator/Procedures"
     },
     {
       "name": "ElevatorDistanceScript",
@@ -1256,7 +1224,7 @@
           }
         ]
       },
-      "path": "~/Elevator"
+      "path": "~/NorthEssentials/Elevator/Procedures"
     },
     {
       "name": "ElevatorDxScript",
@@ -1308,7 +1276,7 @@
           }
         ]
       },
-      "path": "~/Elevator"
+      "path": "~/NorthEssentials/Elevator/Procedures"
     },
     {
       "name": "ElevatorDyScript",
@@ -1360,7 +1328,7 @@
           }
         ]
       },
-      "path": "~/Elevator"
+      "path": "~/NorthEssentials/Elevator/Procedures"
     },
     {
       "name": "ElevatorDzScript",
@@ -1412,7 +1380,7 @@
           }
         ]
       },
-      "path": "~/Elevator"
+      "path": "~/NorthEssentials/Elevator/Procedures"
     },
     {
       "name": "ElevatorUseScript",
@@ -1464,20 +1432,7 @@
           }
         ]
       },
-      "path": "~/Elevator"
-    },
-    {
-      "name": "ElevatorBlockCrafting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "elevator_block_crafting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/northsessentials/recipes/elevator_block_crafting.json"
-        ]
-      },
-      "path": "~/Elevator"
+      "path": "~/NorthEssentials/Elevator/Procedures"
     },
     {
       "name": "RedstoneParticle",
@@ -1491,7 +1446,323 @@
           "src/main/java/net/nwtg/northsessentials/client/particle/RedstoneParticleParticle.java"
         ]
       },
-      "path": "~/Elevator"
+      "path": "~/NorthEssentials/Elevator/Particles"
+    },
+    {
+      "name": "OakElevatorBlock",
+      "type": "block",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_elevator_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/OakElevatorBlockBlock.java",
+          "src/main/resources/assets/northsessentials/blockstates/oak_elevator_block.json",
+          "src/main/resources/assets/northsessentials/models/item/oak_elevator_block.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/OakElevatorBlockBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/block/oak_elevator_block.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Blocks"
+    },
+    {
+      "name": "ElevatorBlocks",
+      "type": "tag",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elevator_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/tags/blocks/elevator_blocks.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Tags"
+    },
+    {
+      "name": "NodesBlockTag",
+      "type": "tag",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nodes_block_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/tags/blocks/nodes.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Nodes/All"
+    },
+    {
+      "name": "OakElevatorBlockCrafting",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_elevator_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/recipes/oak_elevator_block_crafting.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Recipes"
+    },
+    {
+      "name": "SpruceElevatorBlock",
+      "type": "block",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_elevator_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/SpruceElevatorBlockBlock.java",
+          "src/main/java/net/nwtg/northsessentials/block/entity/SpruceElevatorBlockBlockEntity.java",
+          "src/main/resources/assets/northsessentials/blockstates/spruce_elevator_block.json",
+          "src/main/resources/assets/northsessentials/models/block/spruce_elevator_block.json",
+          "src/main/resources/assets/northsessentials/models/item/spruce_elevator_block.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Blocks"
+    },
+    {
+      "name": "SpruceElevatorBlockCrafting",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_elevator_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/recipes/spruce_elevator_block_crafting.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Recipes"
+    },
+    {
+      "name": "BirchElevatorBlock",
+      "type": "block",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_elevator_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/block/birch_elevator_block.json",
+          "src/main/java/net/nwtg/northsessentials/block/BirchElevatorBlockBlock.java",
+          "src/main/java/net/nwtg/northsessentials/block/entity/BirchElevatorBlockBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/item/birch_elevator_block.json",
+          "src/main/resources/assets/northsessentials/blockstates/birch_elevator_block.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Blocks"
+    },
+    {
+      "name": "BirchElevatorBlockCrafting",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_elevator_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/recipes/birch_elevator_block_crafting.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Recipes"
+    },
+    {
+      "name": "JungleElevatorBlock",
+      "type": "block",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_elevator_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/blockstates/jungle_elevator_block.json",
+          "src/main/resources/assets/northsessentials/models/block/jungle_elevator_block.json",
+          "src/main/resources/assets/northsessentials/models/item/jungle_elevator_block.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/JungleElevatorBlockBlockEntity.java",
+          "src/main/java/net/nwtg/northsessentials/block/JungleElevatorBlockBlock.java"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Blocks"
+    },
+    {
+      "name": "JungleElevatorBlockCrafting",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_elevator_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/recipes/jungle_elevator_block_crafting.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Recipes"
+    },
+    {
+      "name": "AcaciaElevatorBlock",
+      "type": "block",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_elevator_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/AcaciaElevatorBlockBlock.java",
+          "src/main/resources/assets/northsessentials/models/item/acacia_elevator_block.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/AcaciaElevatorBlockBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/block/acacia_elevator_block.json",
+          "src/main/resources/assets/northsessentials/blockstates/acacia_elevator_block.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Blocks"
+    },
+    {
+      "name": "AcaciaElevatorBlockCrafting",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacia_elevator_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/recipes/acacia_elevator_block_crafting.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Recipes"
+    },
+    {
+      "name": "DarkOakElevatorBlock",
+      "type": "block",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_elevator_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/block/dark_oak_elevator_block.json",
+          "src/main/resources/assets/northsessentials/models/item/dark_oak_elevator_block.json",
+          "src/main/java/net/nwtg/northsessentials/block/DarkOakElevatorBlockBlock.java",
+          "src/main/java/net/nwtg/northsessentials/block/entity/DarkOakElevatorBlockBlockEntity.java",
+          "src/main/resources/assets/northsessentials/blockstates/dark_oak_elevator_block.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Blocks"
+    },
+    {
+      "name": "DarkOakElevatorBlockCrafting",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_oak_elevator_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/recipes/dark_oak_elevator_block_crafting.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Recipes"
+    },
+    {
+      "name": "CrimsonElevatorBlock",
+      "type": "block",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_elevator_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/northsessentials/block/CrimsonElevatorBlockBlock.java",
+          "src/main/resources/assets/northsessentials/models/item/crimson_elevator_block.json",
+          "src/main/resources/assets/northsessentials/blockstates/crimson_elevator_block.json",
+          "src/main/resources/assets/northsessentials/models/block/crimson_elevator_block.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/CrimsonElevatorBlockBlockEntity.java"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Blocks"
+    },
+    {
+      "name": "CrimsonElevatorBlockCrafting",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_elevator_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/recipes/crimson_elevator_block_crafting.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Recipes"
+    },
+    {
+      "name": "WarpedElevatorBlock",
+      "type": "block",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_elevator_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/blockstates/warped_elevator_block.json",
+          "src/main/java/net/nwtg/northsessentials/block/WarpedElevatorBlockBlock.java",
+          "src/main/resources/assets/northsessentials/models/block/warped_elevator_block.json",
+          "src/main/resources/assets/northsessentials/models/item/warped_elevator_block.json",
+          "src/main/java/net/nwtg/northsessentials/block/entity/WarpedElevatorBlockBlockEntity.java"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Blocks"
+    },
+    {
+      "name": "WarpedElevatorBlockCrafting",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_elevator_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/recipes/warped_elevator_block_crafting.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Recipes"
+    },
+    {
+      "name": "MangroveElevatorBlock",
+      "type": "block",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_elevator_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/northsessentials/models/block/mangrove_elevator_block.json",
+          "src/main/java/net/nwtg/northsessentials/block/MangroveElevatorBlockBlock.java",
+          "src/main/java/net/nwtg/northsessentials/block/entity/MangroveElevatorBlockBlockEntity.java",
+          "src/main/resources/assets/northsessentials/models/item/mangrove_elevator_block.json",
+          "src/main/resources/assets/northsessentials/blockstates/mangrove_elevator_block.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Blocks"
+    },
+    {
+      "name": "MangroveElevatorBlockCrafting",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrove_elevator_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/northsessentials/recipes/mangrove_elevator_block_crafting.json"
+        ]
+      },
+      "path": "~/NorthEssentials/Elevator/Recipes"
     }
   ],
   "variable_elements": [],
@@ -1503,20 +1774,23 @@
       "block.northsessentials.nether_diamond_node": "Nether Diamond Node",
       "block.northsessentials.diamond_node": "Diamond Node",
       "block.northsessentials.nether_redstone_node": "Nether Redstone Node",
+      "block.northsessentials.birch_elevator_block": "Birch Elevator Block",
       "block.northsessentials.gold_node": "Gold Node",
       "block.northsessentials.nether_emerald_node": "Nether Emerald Node",
       "block.northsessentials.nether_iron_node": "Nether Iron Node",
       "block.northsessentials.empty_node": "Empty Node",
       "block.northsessentials.nether_ancient_debris_node": "Nether Ancient Debris Node",
       "block.northsessentials.empty_deepslate_node": "Empty Deepslate Node",
+      "block.northsessentials.jungle_elevator_block": "Jungle Elevator Block",
       "block.northsessentials.lapis_deepslate_node": "Lapis Deepslate Node",
       "block.northsessentials.iron_deepslate_node": "Iron Deepslate Node",
       "block.northsessentials.coal_node": "Coal Node",
       "block.northsessentials.copper_deepslate_node": "Copper Deepslate Node",
+      "block.northsessentials.acacia_elevator_block": "Acacia Elevator Block",
       "block.northsessentials.redstone_deepslate_node": "Redstone Deepslate Node",
       "block.northsessentials.emerald_node": "Emerald Node",
       "block.northsessentials.nether_copper_node": "Nether Copper Node",
-      "block.northsessentials.elevator_block": "Elevator Block",
+      "block.northsessentials.mangrove_elevator_block": "Mangrove Elevator Block",
       "block.northsessentials.quartz_node": "Quartz Node",
       "block.northsessentials.coal_deepslate_node": "Coal Deepslate Node",
       "block.northsessentials.nether_coal_node": "Nether Coal Node",
@@ -1525,12 +1799,17 @@
       "block.northsessentials.iron_node": "Iron Node",
       "block.northsessentials.nether_gold_node": "Nether Gold Node",
       "block.northsessentials.lapis_node": "Lapis Node",
+      "block.northsessentials.warped_elevator_block": "Warped Elevator Block",
       "block.northsessentials.emerald_deepslate_node": "Emerald Deepslate Node",
       "block.northsessentials.ancient_debris_node": "Ancient Debris Node",
       "block.northsessentials.empty_nether_node": "Empty Nether Node",
       "block.northsessentials.diamond_deepslate_node": "Diamond Deepslate Node",
+      "block.northsessentials.oak_elevator_block": "Oak Elevator Block",
+      "block.northsessentials.dark_oak_elevator_block": "Dark Oak Elevator Block",
       "block.northsessentials.nether_quartz_node": "Nether Quartz Node",
+      "block.northsessentials.spruce_elevator_block": "Spruce Elevator Block",
       "block.northsessentials.amethyst_node": "Amethyst Node",
+      "block.northsessentials.crimson_elevator_block": "Crimson Elevator Block",
       "block.northsessentials.nether_amethyst_node": "Nether Amethyst Node",
       "block.northsessentials.copper_node": "Copper Node",
       "block.northsessentials.redstone_node": "Redstone Node",
@@ -1541,20 +1820,180 @@
     "name": "~",
     "children": [
       {
-        "name": "Nodes",
+        "name": "NorthGuard",
+        "children": []
+      },
+      {
+        "name": "NorthEssentials",
         "children": [
           {
-            "name": "All",
+            "name": "Nodes",
             "children": [
               {
-                "name": "On Block Right Clicked",
+                "name": "All",
                 "children": [
                   {
-                    "name": "Tags",
+                    "name": "On Block Right Clicked",
+                    "children": [
+                      {
+                        "name": "Tags",
+                        "children": []
+                      },
+                      {
+                        "name": "Procedures",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Empty",
+                "children": []
+              },
+              {
+                "name": "Stone",
+                "children": [
+                  {
+                    "name": "Coal",
                     "children": []
                   },
                   {
-                    "name": "Procedures",
+                    "name": "Copper",
+                    "children": []
+                  },
+                  {
+                    "name": "Iron",
+                    "children": []
+                  },
+                  {
+                    "name": "Quartz",
+                    "children": []
+                  },
+                  {
+                    "name": "Amethyst",
+                    "children": []
+                  },
+                  {
+                    "name": "Emerald",
+                    "children": []
+                  },
+                  {
+                    "name": "Gold",
+                    "children": []
+                  },
+                  {
+                    "name": "Lapis",
+                    "children": []
+                  },
+                  {
+                    "name": "Redstone",
+                    "children": []
+                  },
+                  {
+                    "name": "Diamond",
+                    "children": []
+                  },
+                  {
+                    "name": "Ancient Debris",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Deepslate",
+                "children": [
+                  {
+                    "name": "Coal",
+                    "children": []
+                  },
+                  {
+                    "name": "Copper",
+                    "children": []
+                  },
+                  {
+                    "name": "Iron",
+                    "children": []
+                  },
+                  {
+                    "name": "Quartz",
+                    "children": []
+                  },
+                  {
+                    "name": "Amethyst",
+                    "children": []
+                  },
+                  {
+                    "name": "Emerald",
+                    "children": []
+                  },
+                  {
+                    "name": "Gold",
+                    "children": []
+                  },
+                  {
+                    "name": "Lapis",
+                    "children": []
+                  },
+                  {
+                    "name": "Redstone",
+                    "children": []
+                  },
+                  {
+                    "name": "Diamond",
+                    "children": []
+                  },
+                  {
+                    "name": "Ancient Debris",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Nether",
+                "children": [
+                  {
+                    "name": "Coal",
+                    "children": []
+                  },
+                  {
+                    "name": "Copper",
+                    "children": []
+                  },
+                  {
+                    "name": "Iron",
+                    "children": []
+                  },
+                  {
+                    "name": "Quartz",
+                    "children": []
+                  },
+                  {
+                    "name": "Amethyst",
+                    "children": []
+                  },
+                  {
+                    "name": "Emerald",
+                    "children": []
+                  },
+                  {
+                    "name": "Gold",
+                    "children": []
+                  },
+                  {
+                    "name": "Lapis",
+                    "children": []
+                  },
+                  {
+                    "name": "Redstone",
+                    "children": []
+                  },
+                  {
+                    "name": "Diamond",
+                    "children": []
+                  },
+                  {
+                    "name": "Ancient Debris",
                     "children": []
                   }
                 ]
@@ -1562,165 +2001,31 @@
             ]
           },
           {
-            "name": "Empty",
-            "children": []
-          },
-          {
-            "name": "Stone",
+            "name": "Elevator",
             "children": [
               {
-                "name": "Coal",
+                "name": "Blocks",
                 "children": []
               },
               {
-                "name": "Copper",
+                "name": "Recipes",
                 "children": []
               },
               {
-                "name": "Iron",
+                "name": "Procedures",
                 "children": []
               },
               {
-                "name": "Quartz",
+                "name": "Particles",
                 "children": []
               },
               {
-                "name": "Amethyst",
-                "children": []
-              },
-              {
-                "name": "Emerald",
-                "children": []
-              },
-              {
-                "name": "Gold",
-                "children": []
-              },
-              {
-                "name": "Lapis",
-                "children": []
-              },
-              {
-                "name": "Redstone",
-                "children": []
-              },
-              {
-                "name": "Diamond",
-                "children": []
-              },
-              {
-                "name": "Ancient Debris",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Deepslate",
-            "children": [
-              {
-                "name": "Coal",
-                "children": []
-              },
-              {
-                "name": "Copper",
-                "children": []
-              },
-              {
-                "name": "Iron",
-                "children": []
-              },
-              {
-                "name": "Quartz",
-                "children": []
-              },
-              {
-                "name": "Amethyst",
-                "children": []
-              },
-              {
-                "name": "Emerald",
-                "children": []
-              },
-              {
-                "name": "Gold",
-                "children": []
-              },
-              {
-                "name": "Lapis",
-                "children": []
-              },
-              {
-                "name": "Redstone",
-                "children": []
-              },
-              {
-                "name": "Diamond",
-                "children": []
-              },
-              {
-                "name": "Ancient Debris",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Nether",
-            "children": [
-              {
-                "name": "Coal",
-                "children": []
-              },
-              {
-                "name": "Copper",
-                "children": []
-              },
-              {
-                "name": "Iron",
-                "children": []
-              },
-              {
-                "name": "Quartz",
-                "children": []
-              },
-              {
-                "name": "Amethyst",
-                "children": []
-              },
-              {
-                "name": "Emerald",
-                "children": []
-              },
-              {
-                "name": "Gold",
-                "children": []
-              },
-              {
-                "name": "Lapis",
-                "children": []
-              },
-              {
-                "name": "Redstone",
-                "children": []
-              },
-              {
-                "name": "Diamond",
-                "children": []
-              },
-              {
-                "name": "Ancient Debris",
+                "name": "Tags",
                 "children": []
               }
             ]
           }
         ]
-      },
-      {
-        "name": "NorthGuard",
-        "children": []
-      },
-      {
-        "name": "Elevator",
-        "children": []
       }
     ]
   },
@@ -1745,5 +2050,5 @@
     "modElementsPackage": "net.nwtg.northsessentials",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300223515
+  "mcreatorVersion": 202300224119
 }

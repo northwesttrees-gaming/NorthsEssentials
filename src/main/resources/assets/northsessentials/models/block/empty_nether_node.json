@@ -1,9 +1,0 @@
-{
-  "parent": "northsessentials:custom/empty_ore_node",
-  "textures": {
-    "all": "northsessentials:blocks/node_nether_stone",
-    "particle": "northsessentials:blocks/node_nether_stone",
-    "stone": "northsessentials:blocks/node_nether_stone"
-  },
-  "render_type": "cutout_mipped"
-}

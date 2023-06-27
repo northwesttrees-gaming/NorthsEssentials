@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "northsessentials:ancient_debris_node",
-    "northsessentials:ancient_debris_deepslate_node",
-    "northsessentials:nether_ancient_debris_node"
-  ]
-}
