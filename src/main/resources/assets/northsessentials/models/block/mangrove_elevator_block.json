@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "northsessentials:blocks/mangrove_elevator_block_sides",
+    "up": "northsessentials:blocks/mangrove_elevator_block_sides",
+    "north": "northsessentials:blocks/mangrove_elevator_block_front",
+    "east": "northsessentials:blocks/mangrove_elevator_block_sides",
+    "south": "northsessentials:blocks/mangrove_elevator_block_sides",
+    "west": "northsessentials:blocks/mangrove_elevator_block_sides",
+    "particle": "northsessentials:blocks/mangrove_elevator_block_sides"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "northsessentials:oak_elevator_block",
+    "northsessentials:spruce_elevator_block",
+    "northsessentials:birch_elevator_block",
+    "northsessentials:jungle_elevator_block",
+    "northsessentials:acacia_elevator_block",
+    "northsessentials:dark_oak_elevator_block",
+    "northsessentials:crimson_elevator_block",
+    "northsessentials:warped_elevator_block",
+    "northsessentials:mangrove_elevator_block"
+  ]
+}

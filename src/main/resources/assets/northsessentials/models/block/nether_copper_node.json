@@ -1,0 +1,12 @@
+{
+  "parent": "northsessentials:custom/ore_node",
+  "textures": {
+    "all": "northsessentials:blocks/copper_node_0",
+    "particle": "northsessentials:blocks/copper_node_0",
+    "crystal_1": "northsessentials:blocks/copper_node_1",
+    "crystal_2": "northsessentials:blocks/copper_node_2",
+    "crystal_0": "northsessentials:blocks/copper_node_0",
+    "stone": "northsessentials:blocks/node_nether_stone"
+  },
+  "render_type": "cutout_mipped"
+}

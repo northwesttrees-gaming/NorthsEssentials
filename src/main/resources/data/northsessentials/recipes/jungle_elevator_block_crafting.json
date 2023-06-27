@@ -1,0 +1,42 @@
+{
+  "group": "elevator_block",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:jungle_planks"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "minecraft:jungle_planks"
+    },
+    "3": {
+      "item": "minecraft:jungle_planks"
+    },
+    "4": {
+      "item": "minecraft:piston"
+    },
+    "5": {
+      "item": "minecraft:jungle_planks"
+    },
+    "6": {
+      "item": "minecraft:jungle_planks"
+    },
+    "7": {
+      "item": "minecraft:redstone"
+    },
+    "8": {
+      "item": "minecraft:jungle_planks"
+    }
+  },
+  "result": {
+    "item": "northsessentials:jungle_elevator_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "northsessentials:blocks/spruce_elevator_block_sides",
+    "up": "northsessentials:blocks/spruce_elevator_block_sides",
+    "north": "northsessentials:blocks/spruce_elevator_block_front",
+    "east": "northsessentials:blocks/spruce_elevator_block_sides",
+    "south": "northsessentials:blocks/spruce_elevator_block_sides",
+    "west": "northsessentials:blocks/spruce_elevator_block_sides",
+    "particle": "northsessentials:blocks/spruce_elevator_block_sides"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "stone": "node_stone"
+      },
+      "name": "default"
+    },
+    "nether": {
+      "map": {
+        "stone": "node_nether_stone"
+      },
+      "name": "nether"
+    },
+    "deepslate": {
+      "map": {
+        "stone": "node_deepslate_stone"
+      },
+      "name": "deepslate"
+    }
+  }
+}

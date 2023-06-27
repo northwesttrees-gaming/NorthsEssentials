@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "northsessentials:blocks/birch_elevator_block_sides",
+    "up": "northsessentials:blocks/birch_elevator_block_sides",
+    "north": "northsessentials:blocks/birch_elevator_block_front",
+    "east": "northsessentials:blocks/birch_elevator_block_sides",
+    "south": "northsessentials:blocks/birch_elevator_block_sides",
+    "west": "northsessentials:blocks/birch_elevator_block_sides",
+    "particle": "northsessentials:blocks/birch_elevator_block_sides"
+  },
+  "render_type": "solid"
+}

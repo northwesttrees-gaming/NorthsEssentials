@@ -1,0 +1,42 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:OakElevatorBlock"
+      },
+      {
+        "value": "CUSTOM:SpruceElevatorBlock"
+      },
+      {
+        "value": "CUSTOM:BirchElevatorBlock"
+      },
+      {
+        "value": "CUSTOM:JungleElevatorBlock"
+      },
+      {
+        "value": "CUSTOM:AcaciaElevatorBlock"
+      },
+      {
+        "value": "CUSTOM:DarkOakElevatorBlock"
+      },
+      {
+        "value": "CUSTOM:CrimsonElevatorBlock"
+      },
+      {
+        "value": "CUSTOM:WarpedElevatorBlock"
+      },
+      {
+        "value": "CUSTOM:MangroveElevatorBlock"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "elevator_blocks",
+    "namespace": "mod"
+  }
+}

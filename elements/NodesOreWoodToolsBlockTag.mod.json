@@ -1,0 +1,45 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:CoalNode"
+      },
+      {
+        "value": "CUSTOM:CoalDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:NetherCoalNode"
+      },
+      {
+        "value": "CUSTOM:NetherGoldNode"
+      },
+      {
+        "value": "CUSTOM:QuartzNode"
+      },
+      {
+        "value": "CUSTOM:QuartzDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:NetherQuartzNode"
+      },
+      {
+        "value": "CUSTOM:AmethystNode"
+      },
+      {
+        "value": "CUSTOM:AmethystDeepslateNode"
+      },
+      {
+        "value": "CUSTOM:NetherAmethystNode"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "nodes/ore/wood_tools",
+    "namespace": "northsessentials"
+  }
+}

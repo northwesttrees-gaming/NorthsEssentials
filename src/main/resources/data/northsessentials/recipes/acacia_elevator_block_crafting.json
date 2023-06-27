@@ -1,0 +1,42 @@
+{
+  "group": "elevator_block",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:acacia_planks"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "minecraft:acacia_planks"
+    },
+    "3": {
+      "item": "minecraft:acacia_planks"
+    },
+    "4": {
+      "item": "minecraft:piston"
+    },
+    "5": {
+      "item": "minecraft:acacia_planks"
+    },
+    "6": {
+      "item": "minecraft:acacia_planks"
+    },
+    "7": {
+      "item": "minecraft:redstone"
+    },
+    "8": {
+      "item": "minecraft:acacia_planks"
+    }
+  },
+  "result": {
+    "item": "northsessentials:acacia_elevator_block",
+    "count": 1
+  }
+}
